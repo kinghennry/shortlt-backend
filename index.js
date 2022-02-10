@@ -25,7 +25,7 @@ mongoose
   .catch((err) => console.log(err));
 
 app.get("/", (req, res) => {
-  res.send("Shortly Server is Working!");
+  res.send("Shortly Server is Working n!");
 });
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
